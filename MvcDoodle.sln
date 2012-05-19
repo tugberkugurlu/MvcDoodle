@@ -1,7 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 11
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDoodle", "src\MvcDoodle\MvcDoodle.csproj", "{41F8BD64-FD9C-4F74-BA48-67277737D0A6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{E960FC2F-2512-452F-978B-E72710363651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{B82B9834-5BB8-44FA-9FDD-47DFAF411A7C}"
+	ProjectSection(SolutionItems) = preProject
+		MvcDoodle.build = MvcDoodle.build
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcDoodle", "src\apps\MvcDoodle\MvcDoodle.csproj", "{41F8BD64-FD9C-4F74-BA48-67277737D0A6}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jquery.validate.mvcdoodle", "src\apps\jquery.validate.mvcdoodle\", "{E03B4DA6-B381-4FBE-9CD8-8DAF85734FBB}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.PhysicalPath = "src\apps\jquery.validate.mvcdoodle\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\jquery.validate.mvcdoodle\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.VirtualPath = "/jquery.validate.mvcdoodle"
+		Release.AspNetCompiler.Debug = "False"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.PhysicalPath = "src\apps\jquery.validate.mvcdoodle\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\jquery.validate.mvcdoodle\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.VirtualPath = "/jquery.validate.mvcdoodle"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		VWDPort = "6839"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DC4722BB-C39A-4F33-A58A-615E666A9AA5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +46,16 @@ Global
 		{41F8BD64-FD9C-4F74-BA48-67277737D0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F8BD64-FD9C-4F74-BA48-67277737D0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F8BD64-FD9C-4F74-BA48-67277737D0A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03B4DA6-B381-4FBE-9CD8-8DAF85734FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03B4DA6-B381-4FBE-9CD8-8DAF85734FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03B4DA6-B381-4FBE-9CD8-8DAF85734FBB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03B4DA6-B381-4FBE-9CD8-8DAF85734FBB}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41F8BD64-FD9C-4F74-BA48-67277737D0A6} = {E960FC2F-2512-452F-978B-E72710363651}
+		{E03B4DA6-B381-4FBE-9CD8-8DAF85734FBB} = {E960FC2F-2512-452F-978B-E72710363651}
 	EndGlobalSection
 EndGlobal

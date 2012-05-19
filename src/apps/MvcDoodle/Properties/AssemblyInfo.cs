@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tugberk Ugurlu")]
 [assembly: AssemblyProduct("MvcDoodle")]
-[assembly: AssemblyCopyright("Copyright © Tugberk Ugurlu 2012")]
+[assembly: AssemblyCopyright("Copyright  © Tugberk Ugurlu 2012")]
 [assembly: AssemblyTrademark("Tugberk Ugurlu")]
 [assembly: AssemblyCulture("")]
 

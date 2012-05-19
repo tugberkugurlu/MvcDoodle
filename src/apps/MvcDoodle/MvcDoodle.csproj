@@ -42,12 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\ControllerExtensions.cs" />
+    <Compile Include="Html\HtmlPrefixScopeExtensions.cs" />
+    <Compile Include="Html\ModelMetadataExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\ModelClientValidationNumericLessThanRule.cs" />
+    <Compile Include="Validation\MustBeTrueAttribute.cs" />
+    <Compile Include="Validation\NumericLessThanAttribute.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Html\" />
     <Folder Include="Internal\" />
-    <Folder Include="Validation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MvcDoodle.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
