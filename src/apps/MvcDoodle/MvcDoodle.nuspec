@@ -12,9 +12,5 @@
     <description>$description$</description>
     <copyright>Copyright Tugberk Ugurlu 2012</copyright>
     <tags>aspnetmvc aspnet</tags>
-    <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System.Web" targetFramework="net40, net45" />
-      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="net40, net45" />
-    </frameworkAssemblies>
   </metadata>
 </package>

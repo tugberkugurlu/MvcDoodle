@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>MvcDoodle.Validation</id>
-    <version>0.1.0.0</version>
+    <version>0.2.2.0</version>
     <title>MvcDoodle.Validation</title>
     <authors>Tugberk Ugurlu</authors>
     <owners>Tugberk Ugurlu</owners>
@@ -13,11 +13,11 @@
     <copyright>Copyright Tugberk Ugurlu 2012</copyright>
     <tags>aspnetmvc aspnet validation jquery</tags>
     <dependencies>
-      <dependency id="MvcDoodle" version="0.1.0.0" />
+      <dependency id="MvcDoodle" version="0.2.2.0" />
       <dependency id="jQuery.Validation.Unobtrusive" version="2.0.20126.16343" />
     </dependencies>
   </metadata>
   <files>
-    <file src="Scripts\*.mvcdoodle.*" target="Scripts" />
+    <file src="Scripts\*.mvcdoodle.*" target="Content\Scripts" />
   </files>
 </package>
