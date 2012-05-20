@@ -47,6 +47,8 @@
     <Compile Include="Html\HtmlPrefixScopeExtensions.cs" />
     <Compile Include="Html\ModelMetadataExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Razor\MvcDoodleRazorViewEngine.cs" />
+    <Compile Include="TwoLevelViewCache.cs" />
     <Compile Include="Validation\ModelClientValidationNumericLessThanRule.cs" />
     <Compile Include="Validation\MustBeTrueAttribute.cs" />
     <Compile Include="Validation\NumericLessThanAttribute.cs" />
