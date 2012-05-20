@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\ControllerExtensions.cs" />
+    <Compile Include="CookieTempDataProvider.cs" />
     <Compile Include="Filters\RemoveWhitespacesAttribute.cs" />
     <Compile Include="Html\HtmlPrefixScopeExtensions.cs" />
     <Compile Include="Html\ModelMetadataExtensions.cs" />
