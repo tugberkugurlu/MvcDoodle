@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\ControllerExtensions.cs" />
+    <Compile Include="Controller\ControllerExtensions.cs" />
     <Compile Include="Filters\RemoveWhitespacesAttribute.cs" />
     <Compile Include="Html\HtmlPrefixScopeExtensions.cs" />
     <Compile Include="Html\ModelMetadataExtensions.cs" />
