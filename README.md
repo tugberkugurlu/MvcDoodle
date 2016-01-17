@@ -1,4 +1,7 @@
 #MvcDoodle
+
+> :warning: **THIS REPOSITORY IS NOT MAINTAINED ANYMORE. IF YOU WOULD LIKE TO VOLUNTEER TO BE THE MAINTAINER, PLEASE [CONTACT ME](https://twitter.com/tourismgeek).**
+
 **MvcDoodle** is an ASP.NET MVC library which contains several useful:
 
  - Extensions
